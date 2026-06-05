@@ -1,24 +1,21 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "OctoFit Tracker backend API",
+  "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^5.2.1",
-    "mongoose": "^9.6.3"
+    "express": "^4.21.1",
+    "mongoose": "^8.8.2"
   },
   "devDependencies": {
-    "@types/express": "^5.0.6",
-    "@types/node": "^25.9.1",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^6.0.3"
+    "typescript": "^5.6.3"
   }
 }
